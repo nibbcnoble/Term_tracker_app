@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WGU Term Tracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_course_list">CourseList</string>
+    <string name="title_activity_assessment_list">AssessmentList</string>
+    <string name="title_activity_term_create">TermCreate</string>
+    <string name="title_activity_course_create">CourseCreate</string>
+    <string name="title_activity_assessment_create">AssessmentCreate</string>
+    <string name="course_name_hint">Course Name</string>
+    <string name="mentor_name_hint">Mentor Name</string>
+    <string name="phone_hint">Mentor Phone Number</string>
+    <string name="email_hint">Mentor Email Address</string>
+    <string name="course_status_complete">Complete</string>
+    <string name="course_status_in_progress">In Progress</string>
+    <string name="course_status_plan_to_take">Plan to take</string>
+    <string name="course_status_dropped">Dropped</string>
+    <string name="title_activity_term_list">TermListActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

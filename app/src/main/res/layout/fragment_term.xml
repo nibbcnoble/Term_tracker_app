@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wgutermtracker.jeffnoble.wgutermtracker.TermFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TermFragmentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="term_name_here"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TermFragmentDates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="term_dates_here"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/TermFragmentCoursesLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Courses"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/TermFragmentCourseList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/TermFragmentDeleteTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Delete Term"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
